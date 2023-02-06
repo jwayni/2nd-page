@@ -20,7 +20,7 @@ body {
     text-align: center;
     background: teal;
     padding: 25px;
-    border-radius: 100px;
+    border-radius: 15px;
     margin-top: 0px;
     margin-top: 0px;
     margin-left: auto;
@@ -94,9 +94,10 @@ body {
 section {
     background: darkslateblue;
     padding: 30px 40px ;
-    margin: 10px ;
-    border-radius: 100px;
-    width: 25%;
+    /* margin: 10px ; */
+    border-radius: 25px;
+    width: 300px;
+    max-width: 300px;
 }
 
 .container {
@@ -131,4 +132,6 @@ section {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
