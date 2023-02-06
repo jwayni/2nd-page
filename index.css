@@ -96,7 +96,7 @@ section {
     padding: 30px 40px ;
     margin: 10px ;
     border-radius: 100px;
-    width: 32%;
+    width: 25%;
 }
 
 .container {
@@ -128,6 +128,7 @@ section {
 
 
 
-.columns {
+.flex {
     display: flex;
+    flex-wrap: wrap;
 }
