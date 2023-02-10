@@ -1,0 +1,175 @@
+/* -----------------------------------------------------------------------------------------------------------*/
+/*                                                                                                            */
+/* -----------------------------------------------| Css Sauce |-----------------------------------------------*/
+/*                                                                                                            */
+/* -----------------------------------------------------------------------------------------------------------*/
+
+body {
+    background: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title-big{
+    background: darkorchid;
+    color: antiquewhite;
+    padding: 20px 20px;
+    width: auto;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 50px;
+    margin:0;
+    margin-bottom: 20px;
+    opacity: 0.85;
+    transition: 0.75s;
+}
+
+.title-big:hover {
+    opacity : 1;
+    box-shadow: 10px 10px orchid;
+} 
+
+.container {
+    width: auto;
+    margin: 50px;
+    padding: 25px;
+    background: #212121;
+    border-radius: 25px;
+}
+
+.container-inside {
+    width: auto;
+    padding: 25px 50px;
+    background: #303030;
+    border-radius: 25px;
+    color:#fff;
+    background-color: rgb(53, 53, 53);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.round-bubble {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color:antiquewhite;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    cursor:pointer;
+    opacity: 0.5;
+    transition: 0.75s;
+}
+
+section {
+    padding: 30px 25px ;
+    border-radius: 25px;
+    transition: 0.75s;
+    width: 300px;
+    height: 533px;
+    max-height: fit-content; 
+    background-color: rgb(161, 161, 161);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.text-white p {
+    color: white;
+    text-align: justify;
+    line-height: 1.5em;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity:0;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------*/
+/*                                                                                                            */
+/* ----------------------------------------------| Hover Sauce |----------------------------------------------*/
+/*                                                                                                            */
+/* -----------------------------------------------------------------------------------------------------------*/
+
+
+section:hover {
+
+    background-color: rgb(43, 43, 43) !important;
+    background-blend-mode: multiply !important; 
+}
+
+section:hover .text-white p {
+   
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+section:hover .round-bubble {
+    background: darkorchid;
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+/* -----------------------------------------------------------------------------------------------------------*/
+/*                                                                                                            */
+/* --------------------------------------------| background images |------------------------------------------*/
+/*                                                                                                            */
+/* -----------------------------------------------------------------------------------------------------------*/
+
+
+
+.bg-image0 {
+    background-image: url("../img/multi-anime.jpg") ;
+}
+
+.bg-image1 {
+    background-image: url("../img/multi-anime2.jpg") ;
+}
+
+#action {
+    background-image: url("../img/action.jpg") ;
+}
+
+#adventure {
+    background-image: url("../img/adventure.jpg") ;
+}
+
+#comedy {
+    background-image: url("../img/comedy.jpg") ;
+}
+
+#slice-of-life {
+    background-image: url("../img/slice-of-life.jpg") ;
+}
+
+#fantasy {
+    background-image: url("../img/fantasy.jpg") ;
+}
+
+#magic {
+    background-image: url("../img/magic.jpg") ;
+}
+
+#horror {
+    background-image: url("../img/horror.jpg") ;
+}
+
+#supernatural {
+    background-image: url("../img/supernatural.jpg") ;
+}
+
+#drama {
+    background-image: url("../img/drama.jpg") ;
+}
